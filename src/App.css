@@ -18,6 +18,14 @@
   line-height: inherit;
 }
 
+.textbox-left {
+  float: left;
+  margin-top: 20px;
+  width: 50%;
+  height: 85%;
+  background-color: white;
+}
+
 /*!
  * Bootstrap v4.4.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
