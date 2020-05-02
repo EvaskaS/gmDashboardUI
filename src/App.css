@@ -4,11 +4,20 @@
 }
 
 .roll {
-  width: 10%;
-  height: 10%;
+  width: 50%;
+  height: 50%;
   padding: 0;
   float: left;
+  line-height: inherit;
 }
+
+.login {
+  width: 50%;
+  height: 50%;
+  padding: 0;
+  line-height: inherit;
+}
+
 /*!
  * Bootstrap v4.4.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -4675,7 +4684,7 @@ input[type="submit"].btn-block {
   color: white;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
-  font-size: 2.25rem;
+  font-size: 1.55rem;
   line-height: inherit;
   white-space: nowrap;
 }

@@ -2,6 +2,9 @@ import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import Roll from "./images/noun_solid_d20.png";
+import Add from "./images/noun_add.png";
+import Save from "./images/noun_save.png";
+import Login from "./images/noun_login.png";
 
 function App() {
   return (
@@ -16,25 +19,25 @@ function App() {
           <ul class="nav navbar-nav">
             <li class="active">
               <a href="#">
-                <img class="roll" src={Roll} />
+                <img class="roll" src={Roll} alt="Roll from Selected" />
               </a>
             </li>
             <li>
-              <a href="#">Add</a>
+              <a href="#">
+                <img class="roll" src={Add} alt="Add a Chart" />
+              </a>
             </li>
             <li>
-              <a href="#">Save</a>
+              <a href="#">
+                <img class="roll" src={Save} alt="Save Data" />
+              </a>
             </li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li>
               <a href="#">
-                <span class="glyphicon glyphicon-user"></span> Sign Up
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <span class="glyphicon glyphicon-log-in"></span> Login
+                <span class="glyphicon glyphicon-log-in"></span>{" "}
+                <img class="login" src={Login} alt="Login or Register" />
               </a>
             </li>
           </ul>
