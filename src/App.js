@@ -1,11 +1,12 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import Roll from "./images/noun_solid_d20.png";
 
 function App() {
   return (
     <div className="App">
-      <nav class="navbar navbar-default">
+      <nav class="navbar navbar-inverse">
         <div class="container-fluid">
           <div class="navbar-header">
             <a class="navbar-brand" href="#">
@@ -14,16 +15,27 @@ function App() {
           </div>
           <ul class="nav navbar-nav">
             <li class="active">
-              <a href="#">Home</a>
+              <a href="#">
+                <img class="roll" src={Roll} />
+              </a>
             </li>
             <li>
-              <a href="#">Page 1</a>
+              <a href="#">Add</a>
             </li>
             <li>
-              <a href="#">Page 2</a>
+              <a href="#">Save</a>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-user"></span> Sign Up
+              </a>
             </li>
             <li>
-              <a href="#">Page 3</a>
+              <a href="#">
+                <span class="glyphicon glyphicon-log-in"></span> Login
+              </a>
             </li>
           </ul>
         </div>
