@@ -21,6 +21,7 @@
 .textbox-left {
   float: left;
   margin-top: 20px;
+  margin: 5px;
   width: 50%;
   height: 85%;
   background-color: white;
