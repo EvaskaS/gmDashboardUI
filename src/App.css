@@ -20,9 +20,18 @@
 
 .textbox-left {
   float: left;
-  margin-top: 20px;
+  margin-top: 40px;
   margin: 5px;
-  width: 50%;
+  width: 48%;
+  height: 85%;
+  background-color: white;
+}
+
+.textbox-right {
+  float: right;
+  margin-top: 40px;
+  margin: 5px;
+  width: 48%;
   height: 85%;
   background-color: white;
 }

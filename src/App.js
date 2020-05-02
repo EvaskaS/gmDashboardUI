@@ -50,7 +50,11 @@ class App extends Component {
         </nav>
 
         <text area class="textbox-left">
-          Hello!
+          CHARTS GO HERE
+        </text>
+
+        <text area class="textbox-right">
+          RESULTS GO HERE
         </text>
       </div>
     );
